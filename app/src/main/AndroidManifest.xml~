@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.com.mrstark.sunshine"
-    android:installLocation="preferExternal">
+    package="app.com.mrstark.sunshine" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -20,8 +19,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DetailActivity"
-            android:label="@string/title_activity_detail"
+            android:name=".DatailActivity"
+            android:label="@string/title_activity_datail"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
